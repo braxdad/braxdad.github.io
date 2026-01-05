@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ads Website</title>
+    <!-- Link to Lexend font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lexend', sans-serif;
+        }
+        .banner {
+            background-color: #f0f0f0; /* Optional: light background */
+            text-align: center;
+            padding: 20px 0;
+            font-size: 48px; /* Big letters */
+            font-weight: 700;
+            margin: 0;
+        }
+        .ads-container {
+            display: flex;
+            flex-direction: column; /* Stack rows vertically */
+            margin: 0;
+            padding: 0;
+        }
+        .ad-row {
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping if needed */
+            margin: 0;
+            padding: 0;
+        }
+        .ad-slot {
+            flex: 1 1 0; /* Grow and shrink equally */
+            min-width: 300px; /* Minimum width for ads */
+            margin: 0;
+            padding: 0;
+            border: none; /* No borders */
+        }
+        .ad-slot ins {
+            display: block !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    </style>
+    <!-- Google AdSense script - Replace 'ca-pub-XXXXXXXXXXXXXXXX' with your actual publisher ID -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="banner">
+        Ads = Money, These Ads = Money for You
+    </div>
+    <div class="ads-container">
+        <!-- Row 1: Example with 3 ad slots - Add more rows or slots as needed -->
+        <div class="ad-row">
+            <div class="ad-slot">
+                <!-- AdSense ad unit - Replace data-ad-slot with your ad slot ID -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="YYYYYYYYYY"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="ad-slot">
+                <!-- Another ad unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="ZZZZZZZZZZ"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="ad-slot">
+                <!-- Another ad unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="AAAAAAAAAA"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <!-- Row 2: Add more rows like this -->
+        <div class="ad-row">
+            <div class="ad-slot">
+                <!-- AdSense ad unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="BBBBBBBBBB"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="ad-slot">
+                <!-- Another ad unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="CCCCCCCCCC"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="ad-slot">
+                <!-- Another ad unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="DDDDDDDDDD"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <!-- Add more rows as needed to create a "wall" of ads -->
+    </div>
+</body>
+</html>
